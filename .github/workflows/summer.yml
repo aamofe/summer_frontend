@@ -35,4 +35,5 @@ jobs:
         REMOTE_USER: ${{ secrets.SERVER_USER }}  
         TARGET: '/home/summer' # 打包后的 build 文件夹将放在 summer
 
+        
      
