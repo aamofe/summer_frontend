@@ -14,7 +14,7 @@ jobs:
         pnpm install
         pnpm run build
     - name: Deploy
-      uses: cross-the-world/scp-pipeline@main
+      uses: cross-the-world/scp-pipeline@master
       with:
         host: ${{secrets.SERVER_HOST}}
         user: ${{secrets.SERVER_USER}}
